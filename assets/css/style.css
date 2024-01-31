@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    
+}
+.font-lobster,.fnt-lobster{
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;    
+}
+li{
+    list-style: none;
+}
+.custom-tooltip{
+    --bs-tooltip-bg: #373A3C;
+    --bs-tooltip-color: #ffffff;
+} 
+.img-carrusel{
+    width: 95%;
+}
+.carousel-indicators li {
+    border-radius: 100%;
+    width: 3px;
+    height: 3px;
+    padding: 9px;
+    position: relative;
+    margin: 0 1px;
+    top: 74px;
+    left: -24px;
+    bottom: -7px;
+    right: -7px;
+    background-color: transparent;
+    display: inline-block;
+}
+.carousel-indicators [data-bs-target] {
+    width: 17px;
+    height: 17px;
+    background-color: #373A3C;
+    border-radius: 100%;
+}
+.newsletter{
+    background-color: #DC3545;
+
+}
+.newsletter-centro{
+    padding: 150px 0;
+}
+footer{
+    background-color: #373A3C;
+}
+.fondo{
+    background-color: aquamarine;
+}
+@media screen and (max-width: 575px) {
+    .lobster-txt{
+        font-size: 50px;
+    }
+    .txt-header-sm{
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .padding-texto{
+        padding-top: 0px;
+        margin: 0;
+    }
+    .border-sm{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 15px;
+        padding-right: 5px;
+    }
+    .text-sm{
+        text-align: center;
+        padding: 0px;
+    }
+    .boton-sm{
+        text-align: center;
+        margin-left: 25px;        
+    }
+    .carrusel{
+        display: none;
+    }
+    .texto-pizza-sm{
+        padding-top: 20px;
+    }
+    .txt-titulo{
+        padding-bottom: 15px;
+    }
+    .txt-receta{
+        font-size: 30px;
+        padding: 0 15px;
+    }
+    .tarjetas{
+        padding-bottom: 15px;
+    }
+    .newsletter-text{
+        font-size: 40px;
+    }
+}
+
